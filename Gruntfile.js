@@ -13,6 +13,7 @@ module.exports = function (grunt) {
             dist: 'dist',
             src: 'app',
             email: 'index.html',
+            txt: 'index.txt',
             distDomain: '',
             devDomain: 'http://<%= connect.options.hostname %>:<%= connect.options.port %>/',      
         		sender: {
@@ -133,10 +134,32 @@ module.exports = function (grunt) {
             options: {
                 baseUrl: '<%= paths.distDomain %>'
             },
+            plain: {
+                options: {
+                    mode: 'txt'
+                },
+                src: '<%= paths.src %>/<%= paths.email %>',
+                dest: '<%= paths.dist %>/<%= paths.txt %>'
+            },
             dist: {
                 src: '<%= paths.src %>/<%= paths.email %>',
                 dest: '<%= paths.dist %>/<%= paths.email %>'
             }
+        },
+        
+         /**
+         * Replacement Tasks
+         * ===============================
+         */
+        replace: {
+          imageDir: {
+            src: '<%= paths.dist %>/index.html',
+            dest: '<%= paths.dist %>/index.html', 
+            replacements: [{
+              from: '/img/', 
+              to: '/'
+            }]
+          }
         },
 
         /**
@@ -194,6 +217,7 @@ module.exports = function (grunt) {
         'grunt-contrib-compass',
         'grunt-contrib-imagemin',
         'grunt-contrib-clean',
+        'grunt-text-replace',
         'grunt-premailer',
         'grunt-prompt',
         'grunt-nodemailer',
@@ -212,6 +236,8 @@ module.exports = function (grunt) {
         'imagemin',
         'compass:dist',
         'premailer:dist',
+        'premailer:plain',
+        'replace',
         'connect:dist'
     ]);
 
@@ -220,6 +246,7 @@ module.exports = function (grunt) {
         'imagemin',
         'compass:dist',
         'premailer:dist',
+        'replace',
         'prompt:target',
         'nodemailer'
     ]);
