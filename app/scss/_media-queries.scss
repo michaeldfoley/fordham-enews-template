@@ -92,12 +92,9 @@ MOBILE TARGETING
     }
     .logo {
       padding-left:0 !important;
-      padding-bottom:15px !important;
     }
     .subheader {
       display: block !important;
-      padding-top:3px !important;
-      padding-bottom:25px !important;
       padding-right:0;
     }
     .section-header {
@@ -170,6 +167,17 @@ MOBILE TARGETING
         clear:both;
       }
     }
+  }
+}
+@media only screen and (max-width: 499px) {
+  .logo {
+    float: none !important;
+    padding-bottom:12px !important;
+  }
+  .subheader {
+    text-align: left !important;
+    padding-bottom: 30px !important;
+    padding-top: 0px !important;
   }
 }
 @media only screen and (max-width: 375px) {
