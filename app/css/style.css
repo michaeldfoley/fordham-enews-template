@@ -319,7 +319,7 @@ small {
 .title, .title-lg, .title-sm {
   color: #900028;
   font-weight: 400;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
 }
 /* line 115, ../scss/_main.scss */
 .title, .title a, .title-lg, .title-lg a, .title-sm, .title-sm a {
@@ -987,7 +987,7 @@ MOBILE TARGETING
     clear: both;
   }
 }
-@media only screen and (max-width: 357px) {
+@media only screen and (max-width: 375px) {
   /* line 179, ../scss/_media-queries.scss */
   body[yahoo] .column33 img,
   body[yahoo] .column50 img {
