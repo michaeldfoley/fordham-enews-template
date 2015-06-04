@@ -15,7 +15,7 @@ module.exports = function (grunt) {
             email: 'index.html',
             txt: 'index.txt',
             distDomain: '',
-            devDomain: 'http://<%= connect.options.hostname %>:<%= connect.options.port %>/',      
+            devDomain: '',      
         		sender: {
           		service: '',
           		user: '',
@@ -223,13 +223,20 @@ module.exports = function (grunt) {
         'grunt-nodemailer',
     ].forEach(grunt.loadNpmTasks);
 
-    grunt.registerTask('default', 'dev');
+    grunt.registerTask('default', 'serve');
 
-    grunt.registerTask('dev', [
+    grunt.registerTask('serve', function (target) {
+        
+      if (target === 'dist') {
+        return grunt.task.run(['build', 'connect:dist']);
+      }
+  
+      grunt.task.run([
         'compass:dev',
         'connect:dev',
         'watch'
-    ]);
+      ]);
+    });
 
     grunt.registerTask('build', [
         'clean',
@@ -237,16 +244,11 @@ module.exports = function (grunt) {
         'compass:dist',
         'premailer:dist',
         'premailer:plain',
-        'replace',
-        'connect:dist'
+        'replace'
     ]);
 
     grunt.registerTask('send', [
-        'clean',
-        'imagemin',
-        'compass:dist',
-        'premailer:dist',
-        'replace',
+        'build',
         'prompt:target',
         'nodemailer'
     ]);
