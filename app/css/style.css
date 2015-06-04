@@ -495,8 +495,12 @@ a.highlight {
 .article td {
   padding-bottom: 50px;
 }
+/* line 9, ../scss/_articles.scss */
+.article img {
+  width: 100%;
+}
 
-/* line 16, ../scss/_articles.scss */
+/* line 19, ../scss/_articles.scss */
 .title, .title a,
 .title-lg,
 .title-lg a,
@@ -505,51 +509,51 @@ a.highlight {
   display: block;
 }
 
-/* line 20, ../scss/_articles.scss */
+/* line 23, ../scss/_articles.scss */
 .title-lg,
 .title-sm {
   font-weight: normal;
   padding-bottom: 7px;
 }
 
-/* line 25, ../scss/_articles.scss */
+/* line 28, ../scss/_articles.scss */
 .title-lg {
   font-size: 25px;
   line-height: 1.2;
   padding-top: 10px;
 }
 
-/* line 30, ../scss/_articles.scss */
+/* line 33, ../scss/_articles.scss */
 .title-sm {
   font-size: 15px;
   padding-top: 7px;
 }
 
-/* line 34, ../scss/_articles.scss */
+/* line 37, ../scss/_articles.scss */
 .title,
 .subtitle {
   font-weight: normal;
 }
 
-/* line 38, ../scss/_articles.scss */
+/* line 41, ../scss/_articles.scss */
 .title {
   font-size: 18px;
   padding-top: 7px;
   padding-bottom: 3px;
   line-height: 24px;
 }
-/* line 44, ../scss/_articles.scss */
+/* line 47, ../scss/_articles.scss */
 .title:first-child {
   padding-top: 0;
 }
 
-/* line 48, ../scss/_articles.scss */
+/* line 51, ../scss/_articles.scss */
 .subtitle {
   color: #6a6a6a;
   padding-top: 0;
 }
 
-/* line 56, ../scss/_articles.scss */
+/* line 59, ../scss/_articles.scss */
 .date,
 .meta,
 .location {
@@ -558,7 +562,7 @@ a.highlight {
   padding-bottom: 0;
   padding-right: 60px;
 }
-/* line 64, ../scss/_articles.scss */
+/* line 67, ../scss/_articles.scss */
 .date + .title,
 .meta + .title,
 .location + .title {
@@ -566,12 +570,12 @@ a.highlight {
   padding-bottom: 15px;
 }
 
-/* line 69, ../scss/_articles.scss */
+/* line 72, ../scss/_articles.scss */
 .date {
   font-weight: bold;
 }
 
-/* line 72, ../scss/_articles.scss */
+/* line 75, ../scss/_articles.scss */
 .meta {
   padding-top: 12px;
   padding-bottom: 12px;
