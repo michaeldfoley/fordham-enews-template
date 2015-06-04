@@ -1,5 +1,33 @@
+// Alumni News Styles
+//-------------------
+
+// Variables
 @import "variables";
-@import "base";
-@import "main";
-@import "custom";
+
+// Base Styles
+@import "reset";
+@import "scaffolding";
+
+// Grid
+@import "grid";
+
+// Type
+@import "type";
+
+// Buttons
+@import "btn";
+
+// Sections
+@import "blocks";
+@import "sections";
+@import "header";
+@import "footer";
+@import "articles";
+@import "sidebar";
+
+
+// Utilities
+
+
+// Media Queries
 @import "media-queries";

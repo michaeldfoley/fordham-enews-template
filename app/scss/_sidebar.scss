@@ -1,0 +1,39 @@
+// 
+//  Sidebar
+//  ---------------------------------
+
+.sidebar-header {
+  font-weight: $font-weight-bold;
+  padding-top:4px;
+  padding-bottom:20px;
+  a {
+    color:$text-color;
+  }
+}
+
+.sidebar-items {
+  padding-bottom:20px;
+}
+
+.sidebar-item,
+.sidebar-more {
+  display: block;
+  padding-bottom:30px;
+  font-size:$font-size-base - 2;
+  a {
+    color:$text-color;
+  }
+  .title,
+  .title-sm {
+    color:$link-color;
+  }
+  ul {
+    padding-left:15px;
+    margin:0;
+  }
+  li {
+    &:last-child {
+      padding-bottom:0;
+    }
+  }
+}

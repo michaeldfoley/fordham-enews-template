@@ -1,0 +1,29 @@
+// 
+//  Footer
+//  ---------------------------------
+
+.footer {
+  .contact {
+    font-weight: bold;
+    padding-top:15px;
+    padding-bottom:15px;
+  }
+}
+.footer-nav {
+  background-color:$footer-nav-background;
+  border-color:$footer-nav-background;
+  color:$footer-nav-color;
+  border:0;
+  td {
+    font-size:floor($font-size-base * .9);
+    text-align: center;
+  }
+  a {
+    color:$footer-nav-link-color;
+    display: block;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+  }
+}
