@@ -71,6 +71,11 @@
 }
 .date {
   font-weight: bold;
+  a {
+    color: $text-color;
+    text-decoration: none;
+    border-bottom: none;
+  }
 }
 .meta {
     padding-top:12px;
