@@ -43,6 +43,7 @@ MOBILE TARGETING
     .header,
     .preheader,
     .footer,
+    .footer-nav,
     .innerContent,
     .innerContent table {
       width: 100% !important;
@@ -171,6 +172,7 @@ MOBILE TARGETING
     padding-bottom:12px !important;
     display: block !important;
     text-align: left !important;
+    padding-right: 0 !important;
   }
   .header-subheader {
     text-align: left !important;

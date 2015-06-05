@@ -299,6 +299,7 @@ small {
 
 /* line 5, ../scss/_btn.scss */
 .btn {
+  display: inline;
   display: inline-block;
   text-align: center;
   padding-top: 7px;
@@ -310,7 +311,7 @@ small {
   border: 1px solid #5d001a;
 }
 
-/* line 17, ../scss/_btn.scss */
+/* line 18, ../scss/_btn.scss */
 .btn-sm {
   font-size: 13px;
   padding-top: 5px;
@@ -319,7 +320,7 @@ small {
   padding-right: 25px;
 }
 
-/* line 26, ../scss/_btn.scss */
+/* line 27, ../scss/_btn.scss */
 .btn-lg {
   font-size: 18px;
   padding-top: 12px;
@@ -328,14 +329,14 @@ small {
   padding-right: 40px;
 }
 
-/* line 34, ../scss/_btn.scss */
+/* line 35, ../scss/_btn.scss */
 .btn-secondary {
   background: #f9f9f9;
   border: 1px solid #e0e0e0;
   color: #565656;
 }
 
-/* line 40, ../scss/_btn.scss */
+/* line 41, ../scss/_btn.scss */
 .register {
   padding-top: 10px;
 }
@@ -449,15 +450,16 @@ a.highlight {
   display: inline-block;
   padding-top: 5px;
   padding-bottom: 15px;
+  padding-right: 15px;
 }
 
-/* line 14, ../scss/_header.scss */
+/* line 15, ../scss/_header.scss */
 .header-subheader {
   display: inline-block;
   padding-top: 12px;
   font-size: 16px;
 }
-/* line 19, ../scss/_header.scss */
+/* line 20, ../scss/_header.scss */
 .header-subheader a, .header-subheader {
   color: #727272;
 }
@@ -574,8 +576,14 @@ a.highlight {
 .date {
   font-weight: bold;
 }
+/* line 74, ../scss/_articles.scss */
+.date a {
+  color: #444444;
+  text-decoration: none;
+  border-bottom: none;
+}
 
-/* line 75, ../scss/_articles.scss */
+/* line 80, ../scss/_articles.scss */
 .meta {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -672,22 +680,23 @@ MOBILE TARGETING
   body[yahoo] .header,
   body[yahoo] .preheader,
   body[yahoo] .footer,
+  body[yahoo] .footer-nav,
   body[yahoo] .innerContent,
   body[yahoo] .innerContent table {
     width: 100% !important;
   }
-  /* line 50, ../scss/_media-queries.scss */
+  /* line 51, ../scss/_media-queries.scss */
   body[yahoo] .innerContent {
     border-width: 0 !important;
   }
-  /* line 56, ../scss/_media-queries.scss */
+  /* line 57, ../scss/_media-queries.scss */
   body[yahoo] .header td,
   body[yahoo] .preheader td,
   body[yahoo] .footer td {
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 63, ../scss/_media-queries.scss */
+  /* line 64, ../scss/_media-queries.scss */
   body[yahoo] .column33 img,
   body[yahoo] .column50 img {
     float: left !important;
@@ -697,58 +706,58 @@ MOBILE TARGETING
     padding-right: 20px !important;
     padding-bottom: 10px !important;
   }
-  /* line 71, ../scss/_media-queries.scss */
+  /* line 72, ../scss/_media-queries.scss */
   body[yahoo] .column33 .title,
   body[yahoo] .column50 .title {
     padding-top: 0 !important;
   }
-  /* line 74, ../scss/_media-queries.scss */
+  /* line 75, ../scss/_media-queries.scss */
   body[yahoo] .column33 .more,
   body[yahoo] .column50 .more {
     display: inline-block !important;
     padding: 0 !important;
   }
-  /* line 79, ../scss/_media-queries.scss */
+  /* line 80, ../scss/_media-queries.scss */
   body[yahoo] .spacer,
   body[yahoo] .spacer50,
   body[yahoo] .spacer33 {
     display: none !important;
   }
-  /* line 84, ../scss/_media-queries.scss */
+  /* line 85, ../scss/_media-queries.scss */
   body[yahoo] td[width="30"],
   body[yahoo] .spacer30 {
     width: 15px !important;
   }
-  /* line 88, ../scss/_media-queries.scss */
+  /* line 89, ../scss/_media-queries.scss */
   body[yahoo] .row-clear {
     height: 0 !important;
   }
-  /* line 91, ../scss/_media-queries.scss */
+  /* line 92, ../scss/_media-queries.scss */
   body[yahoo] .ads {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
   }
-  /* line 95, ../scss/_media-queries.scss */
+  /* line 96, ../scss/_media-queries.scss */
   body[yahoo] .section-header {
     padding-left: 15px !important;
   }
-  /* line 98, ../scss/_media-queries.scss */
+  /* line 99, ../scss/_media-queries.scss */
   body[yahoo] .more {
     font-size: 15px !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  /* line 103, ../scss/_media-queries.scss */
+  /* line 104, ../scss/_media-queries.scss */
   body[yahoo] .more-news,
   body[yahoo] .events {
     padding-left: 15px !important;
   }
-  /* line 107, ../scss/_media-queries.scss */
+  /* line 108, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-items {
     padding-bottom: 0px !important;
     padding-top: 20px !important;
   }
-  /* line 111, ../scss/_media-queries.scss */
+  /* line 112, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item,
   body[yahoo] .sidebar-more {
     -webkit-box-sizing: border-box;
@@ -758,15 +767,15 @@ MOBILE TARGETING
     padding-bottom: 15px !important;
     padding-top: 0 !important;
   }
-  /* line 120, ../scss/_media-queries.scss */
+  /* line 121, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item .title-sm {
     padding-top: 0 !important;
   }
-  /* line 123, ../scss/_media-queries.scss */
+  /* line 124, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-more {
     padding-bottom: 0 !important;
   }
-  /* line 126, ../scss/_media-queries.scss */
+  /* line 127, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-header {
     background-color: #5b6f7b !important;
     color: #ffffff !important;
@@ -782,19 +791,19 @@ MOBILE TARGETING
   body[yahoo] .sidebar-header a {
     color: #ffffff !important;
   }
-  /* line 129, ../scss/_media-queries.scss */
+  /* line 130, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item {
     float: left !important;
     max-width: 50% !important;
     vertical-align: top !important;
   }
-  /* line 134, ../scss/_media-queries.scss */
+  /* line 135, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item:nth-of-type(3n+1),
   body[yahoo] .sidebar-header,
   body[yahoo] .sidebar-more {
     clear: both !important;
   }
-  /* line 142, ../scss/_media-queries.scss */
+  /* line 143, ../scss/_media-queries.scss */
   body[yahoo] .footer-nav tbody,
   body[yahoo] .footer-nav tr,
   body[yahoo] .footer-nav td,
@@ -807,7 +816,7 @@ MOBILE TARGETING
     display: block !important;
     width: 100% !important;
   }
-  /* line 148, ../scss/_media-queries.scss */
+  /* line 149, ../scss/_media-queries.scss */
   body[yahoo] .footer-nav colgroup,
   body[yahoo] .footer-nav .spacer,
   body[yahoo] .column-sidebar colgroup,
@@ -818,26 +827,27 @@ MOBILE TARGETING
   }
 }
 @media only screen and (max-width: 539px) {
-  /* line 158, ../scss/_media-queries.scss */
+  /* line 159, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item:nth-of-type(3n+1) {
     clear: none;
   }
-  /* line 161, ../scss/_media-queries.scss */
+  /* line 162, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item:nth-of-type(2n+1) {
     clear: both;
   }
 }
 @media only screen and (max-width: 499px) {
-  /* line 168, ../scss/_media-queries.scss */
+  /* line 169, ../scss/_media-queries.scss */
   .header-logo,
   .header-subheader {
     float: none !important;
     padding-bottom: 12px !important;
     display: block !important;
     text-align: left !important;
+    padding-right: 0 !important;
   }
 
-  /* line 175, ../scss/_media-queries.scss */
+  /* line 177, ../scss/_media-queries.scss */
   .header-subheader {
     text-align: left !important;
     padding-bottom: 30px !important;
@@ -845,7 +855,7 @@ MOBILE TARGETING
   }
 }
 @media only screen and (max-width: 375px) {
-  /* line 185, ../scss/_media-queries.scss */
+  /* line 187, ../scss/_media-queries.scss */
   body[yahoo] .column33 img,
   body[yahoo] .column50 img {
     float: none !important;
@@ -856,7 +866,7 @@ MOBILE TARGETING
   }
 }
 @media only screen and (min-width: 358px) {
-  /* line 198, ../scss/_media-queries.scss */
+  /* line 200, ../scss/_media-queries.scss */
   body[yahoo] .column60 img, body[yahoo] .column66 img {
     margin-left: auto;
     margin-right: auto;
