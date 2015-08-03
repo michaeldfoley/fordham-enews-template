@@ -81,6 +81,11 @@
   	img {
   		max-width: 340px;
   	}
+  	
+  	.inner td {
+    	width: 340px;
+    	max-width: 100%;
+  	}
 	}
   
 	.column-fourty {
@@ -89,6 +94,11 @@
 		img {
   		max-width: 220px;
 		}
+  	
+  	.inner td {
+    	width: 340px;
+    	max-width: 100%;
+  	}
 	}
 }
 
@@ -169,6 +179,10 @@
   	
   	.inner {
     	width: 460px !important;
+    	max-width: 100% !important;
+  	}
+  	.inner td {
+    	width: 440px !important;
     	max-width: 100% !important;
   	}
   	
