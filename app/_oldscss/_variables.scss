@@ -1,12 +1,7 @@
-// 
-//  Variables
-//  ---------------------------------
-
-
 // Base colors
 //---------------------
 
-$base-background: #ffffff;
+$base-background: #f9f9f9;
 $base-border: darken($base-background, 5%);
 $content-background: #ffffff;
 $text-color: #444444;
@@ -51,9 +46,3 @@ $font-size-base: 15px;
 $line-height-base: 1.6;
 $line-height-large: 1.2;
 $line-height-computed: floor($font-size-base * $line-height-base);
-
-
-// Media Queries
-//---------------------
-
-$screen-sm: 460px;
