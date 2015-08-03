@@ -574,6 +574,16 @@ small {
     Margin-bottom: 10px !important;
   }
 }
+/* line 6, ../scss/_callout.scss */
+.callout {
+  background-color: #ededed;
+  text-align: center;
+}
+/* line 10, ../scss/_callout.scss */
+.callout a {
+  display: block;
+}
+
 /* line 9, ../scss/_section.scss */
 .section-header {
   background-color: #5b6f7b;
