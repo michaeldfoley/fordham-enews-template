@@ -7,6 +7,7 @@
 //---------------------
 
 #{headings()} {
+  Margin-top: 0;
   color: $heading-color;
   line-height: 1.2;
   font-weight: normal;
@@ -21,12 +22,8 @@
   Margin-bottom: ($line-height-computed / 2);
 }
 
-#{headings(1, 4)} {
+#{headings(3, 4)} {
   Margin-top: 10px;
-}
-
-#{headings(5, 6)} {
-  Margin-top: 0;
 }
 
 #{headings(4, 6)} {

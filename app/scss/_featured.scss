@@ -8,9 +8,6 @@
 
 @media screen and (min-width: $screen-xs + 1) and (max-width: $screen-sm) {
   .featured {
-    + .featured {
-      padding-top: $gutter / 2;
-    }
     
     .contents,
     .contents tbody,
