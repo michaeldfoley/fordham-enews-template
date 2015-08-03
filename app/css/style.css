@@ -343,110 +343,110 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 /* line 15, ../scss/_type.scss */
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a, a h1, h2 a, a h2, h3 a, a h3, h4 a, a h4, h5 a, a h5, h6 a, a h6 {
   text-decoration: none;
   color: #900028;
 }
 
-/* line 21, ../scss/_type.scss */
+/* line 22, ../scss/_type.scss */
 h1, h2, h3 {
   Margin-bottom: 12px;
 }
 
-/* line 25, ../scss/_type.scss */
+/* line 26, ../scss/_type.scss */
 h3, h4 {
   Margin-top: 10px;
 }
 
-/* line 29, ../scss/_type.scss */
+/* line 30, ../scss/_type.scss */
 h4, h5, h6 {
   Margin-bottom: 8px;
 }
 
-/* line 33, ../scss/_type.scss */
+/* line 34, ../scss/_type.scss */
 h1 {
   font-size: 39px;
 }
 @media screen and (max-width: 460px) {
-  /* line 33, ../scss/_type.scss */
+  /* line 34, ../scss/_type.scss */
   h1 {
     font-size: 30px !important;
   }
 }
 
-/* line 40, ../scss/_type.scss */
+/* line 41, ../scss/_type.scss */
 h2 {
   font-size: 32px;
 }
 @media screen and (max-width: 460px) {
-  /* line 40, ../scss/_type.scss */
+  /* line 41, ../scss/_type.scss */
   h2 {
     font-size: 27px !important;
   }
 }
 
-/* line 47, ../scss/_type.scss */
+/* line 48, ../scss/_type.scss */
 h3 {
   font-size: 26px;
 }
 @media screen and (max-width: 460px) {
-  /* line 47, ../scss/_type.scss */
+  /* line 48, ../scss/_type.scss */
   h3 {
     font-size: 22px !important;
   }
 }
 
-/* line 54, ../scss/_type.scss */
+/* line 55, ../scss/_type.scss */
 h4 {
   font-size: 20px;
 }
 @media screen and (max-width: 460px) {
-  /* line 54, ../scss/_type.scss */
+  /* line 55, ../scss/_type.scss */
   h4 {
     font-size: 18px !important;
   }
 }
 
-/* line 60, ../scss/_type.scss */
+/* line 61, ../scss/_type.scss */
 h5 {
   font-size: 15px;
 }
 
-/* line 61, ../scss/_type.scss */
+/* line 62, ../scss/_type.scss */
 h6 {
   font-size: 13px;
 }
 
-/* line 69, ../scss/_type.scss */
+/* line 70, ../scss/_type.scss */
 p {
   padding: 0;
   Margin-bottom: 1.2em;
 }
 
-/* line 78, ../scss/_type.scss */
+/* line 79, ../scss/_type.scss */
 ul {
   margin: 0;
   Margin-bottom: 17px;
 }
 
-/* line 82, ../scss/_type.scss */
+/* line 83, ../scss/_type.scss */
 li {
   Margin-bottom: 7px;
 }
 
-/* line 90, ../scss/_type.scss */
+/* line 91, ../scss/_type.scss */
 .lead {
   font-size: 23px;
 }
 
-/* line 94, ../scss/_type.scss */
+/* line 95, ../scss/_type.scss */
 .more {
   display: block;
   font-size: 14px;
   font-weight: bold;
 }
 
-/* line 104, ../scss/_type.scss */
+/* line 105, ../scss/_type.scss */
 small {
   color: #777777;
   font-size: 85%;
@@ -576,12 +576,10 @@ small {
 }
 /* line 6, ../scss/_callout.scss */
 .callout {
-  background-color: #ededed;
+  background-color: #e6e6e6;
   text-align: center;
-}
-/* line 10, ../scss/_callout.scss */
-.callout a {
   display: block;
+  padding: 15px;
 }
 
 /* line 9, ../scss/_section.scss */
@@ -674,4 +672,36 @@ small {
 /* line 94, ../scss/_section.scss */
 .sidebar-text {
   font-size: 13px;
+}
+
+/* line 6, ../scss/_event.scss */
+.event td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 13px;
+}
+
+/* line 13, ../scss/_event.scss */
+.event-image {
+  width: 150px;
+  padding-right: 30px;
+}
+/* line 17, ../scss/_event.scss */
+.event-image img {
+  max-width: 100%;
+}
+@media screen and (max-width: 375px) {
+  /* line 13, ../scss/_event.scss */
+  .event-image {
+    width: 100px !important;
+    padding-right: 15px !important;
+  }
+}
+
+/* line 27, ../scss/_event.scss */
+.event-more {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
 }

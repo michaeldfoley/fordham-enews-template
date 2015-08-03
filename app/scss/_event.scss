@@ -1,0 +1,31 @@
+// 
+//  Event
+//  ---------------------------------
+
+
+.event td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid $base-border;
+  font-size: floor($font-size-base * .9);
+}
+
+.event-image {
+  width: 150px;
+  padding-right: 30px;
+  
+  img {
+    max-width: 100%;
+  }
+  
+	@media screen and(max-width: $screen-xs) {
+  	width: 100px !important;
+  	padding-right: 15px !important;
+	}
+}
+
+.event-more {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
