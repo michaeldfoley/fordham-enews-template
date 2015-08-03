@@ -51,4 +51,10 @@ img {
   font-weight: $font-weight-base;
   font-size: $font-size-base;
   text-align: left;
+  
+  
+  
+	@media screen and(max-width: $screen-sm) {
+    font-size: $font-size-base - 1;
+	}
 }

@@ -99,6 +99,12 @@ a img {
   font-size: 15px;
   text-align: left;
 }
+@media screen and (max-width: 460px) {
+  /* line 47, ../scss/_scaffolding.scss */
+  .contents {
+    font-size: 14px;
+  }
+}
 
 /* line 9, ../scss/_grid.scss */
 .two-column,
@@ -424,6 +430,44 @@ li {
 small {
   color: #777777;
   font-size: 85%;
+}
+
+/* line 5, ../scss/_btn.scss */
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #900028;
+  color: #ffffff;
+  border: 1px solid #5d001a;
+}
+
+/* line 21, ../scss/_btn.scss */
+.btn-sm {
+  font-size: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* line 29, ../scss/_btn.scss */
+.btn-lg {
+  font-size: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* line 36, ../scss/_btn.scss */
+.btn-secondary {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  color: #565656;
 }
 
 /* line 9, ../scss/_header.scss */
