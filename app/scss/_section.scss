@@ -1,0 +1,53 @@
+// 
+//  Section
+//  ---------------------------------
+
+
+// Section Header
+//---------------------
+
+.section-header {
+  background-color: #5b6f7b;
+  color: $btn-color;
+  display: inline;
+  display: inline-block;
+  font-weight: $font-weight-base;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  Margin-bottom: 20px;
+  text-align: center;
+  font-size: floor($font-size-base*.95);
+  
+  a {
+    color: $btn-color;        
+  }
+  
+  @media screen and (max-width: 600px) { 
+    Margin-left: -15px;
+    padding-left: 15px;
+    padding-right: 25px;
+  }
+}
+
+
+// Section List
+//---------------------
+
+.section-list {
+  list-style: none;
+  Margin-left: 0;
+  Margin-right: 0;
+  Margin-bottom: 40px;
+  padding-left:0;
+  padding-right:0;
+  
+  li {
+    Margin-bottom: 12px;
+    
+    &:last-child {
+      padding-bottom:0;
+    }
+  }
+}

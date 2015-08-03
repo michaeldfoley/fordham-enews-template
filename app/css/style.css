@@ -229,13 +229,13 @@ a img {
 .three-column .column {
   max-width: 200px;
 }
-/* line 117, ../scss/_grid.scss */
-.three-column .column-2 {
-  max-width: 400px;
+/* line 116, ../scss/_grid.scss */
+.three-column .column .contents {
+  text-align: center;
 }
 /* line 121, ../scss/_grid.scss */
-.three-column .contents {
-  text-align: center;
+.three-column .column-2 {
+  max-width: 400px;
 }
 /* line 125, ../scss/_grid.scss */
 .three-column img {
@@ -572,4 +572,49 @@ small {
     Margin-right: 20px !important;
     Margin-bottom: 10px !important;
   }
+}
+/* line 9, ../scss/_section.scss */
+.section-header {
+  background-color: #5b6f7b;
+  color: #ffffff;
+  display: inline;
+  display: inline-block;
+  font-weight: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  Margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 23, ../scss/_section.scss */
+.section-header a {
+  color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+  /* line 9, ../scss/_section.scss */
+  .section-header {
+    Margin-left: -15px;
+    padding-left: 15px;
+    padding-right: 25px;
+  }
+}
+
+/* line 38, ../scss/_section.scss */
+.section-list {
+  list-style: none;
+  Margin-left: 0;
+  Margin-right: 0;
+  Margin-bottom: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 46, ../scss/_section.scss */
+.section-list li {
+  Margin-bottom: 12px;
+}
+/* line 49, ../scss/_section.scss */
+.section-list li:last-child {
+  padding-bottom: 0;
 }
