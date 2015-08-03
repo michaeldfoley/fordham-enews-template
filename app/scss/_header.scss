@@ -6,7 +6,7 @@
 // Logo
 //---------------------
 
-.logo .inner {
+.header-logo .inner {
 	padding-top: 20px;
 	padding-bottom: 25px;
   	
@@ -42,6 +42,15 @@
   
   a, & {
     color: $meta-color;
+  }
+}
+
+@media screen and(max-width: $screen-sm) {
+  .header-logo,
+  .header-tagline {
+    .contents {
+      text-align: center;
+    }
   }
 }
 

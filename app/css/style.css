@@ -255,71 +255,65 @@ a img {
   .sixtyfourty-column .column-fourty {
     max-width: 100% !important;
   }
-  /* line 165, ../scss/_grid.scss */
-  .two-column .contents,
-  .three-column .contents,
-  .sixtyfourty-column .contents {
-    text-align: center !important;
-  }
 
-  /* line 170, ../scss/_grid.scss */
+  /* line 166, ../scss/_grid.scss */
   .two-column img {
     max-width: 100% !important;
   }
 
-  /* line 174, ../scss/_grid.scss */
+  /* line 170, ../scss/_grid.scss */
   .three-column img {
     max-width: 50% !important;
   }
 
-  /* line 180, ../scss/_grid.scss */
+  /* line 176, ../scss/_grid.scss */
   .sixtyfourty-column .inner {
     width: 460px !important;
     max-width: 100% !important;
   }
-  /* line 184, ../scss/_grid.scss */
+  /* line 180, ../scss/_grid.scss */
   .sixtyfourty-column .inner td {
     width: 440px !important;
     max-width: 100% !important;
   }
-  /* line 189, ../scss/_grid.scss */
+  /* line 185, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty img {
     max-width: 100% !important;
   }
-  /* line 193, ../scss/_grid.scss */
+  /* line 189, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty img {
     max-width: 50% !important;
   }
 }
 @media screen and (min-width: 461px) and (max-width: 620px) {
-  /* line 202, ../scss/_grid.scss */
+  /* line 198, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty {
     max-width: 60% !important;
   }
-  /* line 206, ../scss/_grid.scss */
+  /* line 202, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty {
     max-width: 40% !important;
   }
 
-  /* line 213, ../scss/_grid.scss */
+  /* line 209, ../scss/_grid.scss */
   .three-column .column {
     max-width: 33% !important;
   }
-  /* line 217, ../scss/_grid.scss */
+  /* line 213, ../scss/_grid.scss */
   .three-column .column-2 {
     max-width: 66% !important;
   }
 
-  /* line 222, ../scss/_grid.scss */
+  /* line 218, ../scss/_grid.scss */
   .two-column .column {
     max-width: 50% !important;
   }
 
-  /* line 226, ../scss/_grid.scss */
+  /* line 222, ../scss/_grid.scss */
   .sidebar .main {
     max-width: 100% !important;
   }
-  /* line 229, ../scss/_grid.scss */
+  /* line 225, ../scss/_grid.scss */
   .sidebar .main .contents {
     text-align: center !important;
   }
@@ -433,23 +427,23 @@ small {
 }
 
 /* line 9, ../scss/_header.scss */
-.logo .inner {
+.header-logo .inner {
   padding-top: 20px;
   padding-bottom: 25px;
 }
 @media screen and (max-width: 460px) {
   /* line 9, ../scss/_header.scss */
-  .logo .inner {
+  .header-logo .inner {
     padding-bottom: 0 !important;
   }
 }
 /* line 17, ../scss/_header.scss */
-.logo .inner img {
+.header-logo .inner img {
   max-width: 165px;
 }
 @media screen and (max-width: 460px) {
   /* line 17, ../scss/_header.scss */
-  .logo .inner img {
+  .header-logo .inner img {
     max-width: 165px !important;
   }
 }
@@ -477,7 +471,14 @@ small {
   color: #727272;
 }
 
-/* line 52, ../scss/_header.scss */
+@media screen and (max-width: 460px) {
+  /* line 51, ../scss/_header.scss */
+  .header-logo .contents,
+  .header-tagline .contents {
+    text-align: center;
+  }
+}
+/* line 61, ../scss/_header.scss */
 .header-description {
   font-size: 15px;
   font-weight: normal;
