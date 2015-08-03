@@ -8,4 +8,9 @@
   text-align: center;
   display: block;
   padding: 15px;
+  
+  @media screen and (max-width: 600px) {
+    Margin-left: -15px;
+    Margin-right: -15px;
+  }
 }

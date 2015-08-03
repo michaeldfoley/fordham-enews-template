@@ -1,0 +1,80 @@
+// 
+//  Footer
+//  ---------------------------------
+
+
+// Footer Nav
+//---------------------
+
+.footer-nav,
+.footer-nav .outer {
+  background: $footer-nav-background;
+}
+
+.footer-nav {
+  
+  a {
+    color: $footer-nav-color;
+  }
+  
+  .column {
+    vertical-align: middle;
+  }
+  
+  .contents {
+    color: $footer-nav-color;
+    font-size: floor($font-size-base * .9);
+    
+    @media screen and (max-width: $screen-sm) {
+      font-size: floor($font-size-base * .9) !important;
+    }
+  }
+  
+  .inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  @media screen and (max-width: $screen-sm) {
+    .five-column {
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+    }
+  }
+}
+
+
+// CAN-SPAM Footer
+//---------------------
+
+.footer,
+.footer .outer {
+  background: $footer-background;
+}
+
+.footer {
+  
+  a {
+    color: $footer-link-color;
+  }
+  
+  .contents {
+    font-size: floor($font-size-base * .8);
+    text-align: center;
+    color: $footer-color;
+    
+    @media screen and (max-width: $screen-sm) {
+      font-size: floor($font-size-base * .8) !important;
+    }
+  }
+}
+
+.footer-contact {
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  a {
+    font-weight: bold;
+  }
+}
