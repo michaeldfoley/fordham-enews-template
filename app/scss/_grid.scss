@@ -160,13 +160,13 @@
   	.column-sixty,
   	.column-fourty {
 			max-width: 100% !important;
+			display: table;
   	}
   }
   
 	.two-column img {
 		max-width: 100% !important;
 	}
-	
 	.three-column img {
 		max-width: 50% !important;
 	}

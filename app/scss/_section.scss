@@ -25,9 +25,9 @@
   }
   
   @media screen and (max-width: 600px) { 
-    Margin-left: -15px;
-    padding-left: 15px;
-    padding-right: 25px;
+    Margin-left: -15px !important;
+    padding-left: 15px !important;
+    padding-right: 25px !important;
   }
 }
 
@@ -50,4 +50,47 @@
       padding-bottom:0;
     }
   }
+}
+
+
+// Sidebar
+//---------------------
+
+.sidebar-item {
+  Margin-bottom: 40px;
+  max-width: 170px;
+  
+  @media screen and (min-width: $screen-xs) and (max-width: $screen-sm) { 
+    Margin-bottom: 0px !important;
+    max-width: 50% !important;
+    float: left !important;
+    
+    td {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+  }
+  
+  @media screen and (max-width: $screen-sm) { 
+    Margin-left: auto !important;
+    Margin-right: auto !important;
+    
+    img {
+      max-width: 100% !important;
+    }
+  }
+}
+
+.sidebar-header {
+  padding-top: 4px;
+  Margin-bottom: 25px;
+  font-weight: bold;
+  
+  a {
+    color: $text-color;
+  }
+}
+
+.sidebar-text {
+  font-size: floor($font-size-base * .9);
 }
