@@ -1,0 +1,35 @@
+// 
+//  Featured
+//  ---------------------------------
+
+
+// Featured article layout
+//---------------------
+
+@media screen and (min-width: $screen-xs + 1) and (max-width: $screen-sm) {
+  .featured {
+    + .featured {
+      padding-top: $gutter / 2;
+    }
+    
+    .contents,
+    .contents tbody,
+    .contents tr,
+    .contents td {
+      display: block !important;
+    }
+    
+    .text,
+    #{headings()} {
+      padding-top: 0 !important;
+      Margin-top: 0 !important;
+    }
+    
+    .featured-image {
+      float: left !important;
+      width: 33% !important;
+      Margin-right: 20px !important;
+      Margin-bottom: 10px !important;
+    }
+  }
+}

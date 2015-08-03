@@ -86,11 +86,21 @@ a img {
 /* line 37, ../scss/_scaffolding.scss */
 .full-width-image img {
   width: 100%;
-  max-width: 600px;
+  max-width: 570px;
   height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (max-width: 600px) {
+  /* line 37, ../scss/_scaffolding.scss */
+  .full-width-image img {
+    max-width: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
-/* line 47, ../scss/_scaffolding.scss */
+/* line 55, ../scss/_scaffolding.scss */
 .contents {
   color: #444444;
   font-family: "Open Sans", Arial, sans-serif;
@@ -100,10 +110,15 @@ a img {
   text-align: left;
 }
 @media screen and (max-width: 460px) {
-  /* line 47, ../scss/_scaffolding.scss */
+  /* line 55, ../scss/_scaffolding.scss */
   .contents {
-    font-size: 14px;
+    font-size: 14px !important;
   }
+}
+
+/* line 74, ../scss/_scaffolding.scss */
+.gutter {
+  height: 30px;
 }
 
 /* line 9, ../scss/_grid.scss */
@@ -333,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 14, ../scss/_type.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
-  color: #900028 !important;
+  color: #900028;
 }
 
 /* line 20, ../scss/_type.scss */
@@ -363,7 +378,7 @@ h1 {
 @media screen and (max-width: 460px) {
   /* line 36, ../scss/_type.scss */
   h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 }
 
@@ -374,7 +389,7 @@ h2 {
 @media screen and (max-width: 460px) {
   /* line 43, ../scss/_type.scss */
   h2 {
-    font-size: 27px;
+    font-size: 27px !important;
   }
 }
 
@@ -385,7 +400,7 @@ h3 {
 @media screen and (max-width: 460px) {
   /* line 50, ../scss/_type.scss */
   h3 {
-    font-size: 22px;
+    font-size: 22px !important;
   }
 }
 
@@ -393,40 +408,53 @@ h3 {
 h4 {
   font-size: 20px;
 }
+@media screen and (max-width: 460px) {
+  /* line 57, ../scss/_type.scss */
+  h4 {
+    font-size: 18px !important;
+  }
+}
 
-/* line 58, ../scss/_type.scss */
+/* line 63, ../scss/_type.scss */
 h5 {
   font-size: 15px;
 }
 
-/* line 59, ../scss/_type.scss */
+/* line 64, ../scss/_type.scss */
 h6 {
   font-size: 13px;
 }
 
-/* line 67, ../scss/_type.scss */
+/* line 72, ../scss/_type.scss */
 p {
   padding: 0;
   Margin-bottom: 1.2em;
 }
 
-/* line 76, ../scss/_type.scss */
+/* line 81, ../scss/_type.scss */
 ul {
   margin: 0;
   Margin-bottom: 17px;
 }
 
-/* line 80, ../scss/_type.scss */
+/* line 85, ../scss/_type.scss */
 li {
   Margin-bottom: 7px;
 }
 
-/* line 88, ../scss/_type.scss */
+/* line 93, ../scss/_type.scss */
 .lead {
   font-size: 23px;
 }
 
-/* line 96, ../scss/_type.scss */
+/* line 97, ../scss/_type.scss */
+.more {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 107, ../scss/_type.scss */
 small {
   color: #777777;
   font-size: 85%;
@@ -530,4 +558,31 @@ small {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 460px) {
+  /* line 11, ../scss/_featured.scss */
+  .featured + .featured {
+    padding-top: 15px;
+  }
+  /* line 15, ../scss/_featured.scss */
+  .featured .contents,
+  .featured .contents tbody,
+  .featured .contents tr,
+  .featured .contents td {
+    display: block !important;
+  }
+  /* line 22, ../scss/_featured.scss */
+  .featured .text,
+  .featured h1, .featured h2, .featured h3, .featured h4, .featured h5, .featured h6 {
+    padding-top: 0 !important;
+    Margin-top: 0 !important;
+  }
+  /* line 28, ../scss/_featured.scss */
+  .featured .featured-image {
+    float: left !important;
+    width: 33% !important;
+    Margin-right: 20px !important;
+    Margin-bottom: 10px !important;
+  }
 }
