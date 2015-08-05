@@ -29,6 +29,7 @@ $aside-color: lighten($text-color, 10%);
 $btn-background: $primary-color;
 $btn-color: #ffffff;
 $btn-secondary-background: $aside-background;
+$btn-secondary-border: darken($btn-secondary-background, 30%);
 $btn-secondary-color: lighten($text-color, 7%);
 
 
@@ -41,6 +42,9 @@ $footer-link-color: $footer-color;
 $footer-nav-background: #5b6f7b;
 $footer-nav-color: #ffffff;
 $footer-nav-link-color: $footer-nav-color;
+$footer-bar-background: #6d9297;
+$footer-bar-color: #ffffff;
+$footer-bar-link-color: $footer-nav-color;
 
 
 // Fonts

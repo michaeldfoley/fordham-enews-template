@@ -3,25 +3,93 @@
 //  ---------------------------------
 
 
-.event td {
-  padding-top: 15px;
-  padding-bottom: 15px;
+.event {
   border-bottom: 1px solid $base-border;
-  font-size: floor($font-size-base * .9);
+  
+  .inner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .inner {
+    font-size: floor($font-size-base * .9);
+    
+    @media screen and (max-width: $screen-sm) {
+      text-align: center !important;
+    }
+    
+  }
 }
+
+
+// Event image
+//---------------------
 
 .event-image {
   width: 150px;
-  padding-right: 30px;
+    
+  @media screen and (max-width: $screen-sm) {
+    padding-top: 25px !important;
+    padding-bottom: 0 !important;
+  }
   
   img {
     max-width: 100%;
   }
+}
+
+
+// Event details
+//---------------------
+
+.event-details {
+  padding-left: 0px;
+  padding-right: 0px;
   
-	@media screen and(max-width: $screen-xs) {
-  	width: 100px !important;
-  	padding-right: 15px !important;
-	}
+  h5 {
+    color: #900028;
+  }
+    
+  @media screen and (max-width: $screen-sm) {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+
+// Event button
+//---------------------
+
+.event-btn {
+    
+  @media screen and (max-width: $screen-sm) {
+    padding-top: 0 !important;
+    padding-bottom: 25px !important;
+  }
+  
+  .btn {
+    display: block;
+    width: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    @media screen and (max-width: 600px) {
+      width: auto !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+  }
+  
+}
+
+
+// Misc event utilities
+//---------------------
+
+.event-empty {
+  @media screen and (max-width: $screen-sm) {
+    display: none !important;
+  }
 }
 
 .event-more {

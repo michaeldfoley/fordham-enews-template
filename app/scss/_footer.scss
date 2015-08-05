@@ -44,6 +44,41 @@
 }
 
 
+// Footer Bar
+//---------------------
+
+.footer-bar,
+.footer-bar .outer {
+  background: $footer-bar-background;
+}
+
+.footer-bar {
+  
+  a {
+    color: $footer-bar-color;
+  }
+  
+  .column {
+    vertical-align: middle;
+  }
+  
+  .contents {
+    color: $footer-bar-color;
+    font-size: floor($font-size-base * .9);
+    text-align: center;
+    
+    @media screen and (max-width: $screen-sm) {
+      font-size: floor($font-size-base * .9) !important;
+    }
+  }
+  
+  .inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
 // CAN-SPAM Footer
 //---------------------
 
@@ -56,6 +91,7 @@
   
   a {
     color: $footer-link-color;
+    text-decoration: none;
   }
   
   .contents {

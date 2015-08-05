@@ -3,6 +3,19 @@
 //  ---------------------------------
 
 
+// Preheader
+//---------------------
+
+.preheader {
+  max-height:0;
+  overflow:hidden;
+  display:none;
+  mso-hide: all;
+  font-size:11px; 
+  color: #666666;
+}
+
+
 // Logo
 //---------------------
 
@@ -49,7 +62,7 @@
   .header-logo,
   .header-tagline {
     .contents {
-      text-align: center;
+      text-align: center !important;
     }
   }
 }

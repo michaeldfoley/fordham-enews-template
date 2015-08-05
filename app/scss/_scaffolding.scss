@@ -11,8 +11,16 @@ a {
   color: $link-color;
 }
 
-.textlink {
+.textlink,
+.textlink a {
   color: $text-color;
+  text-decoration: none;
+}
+
+.whitelink,
+.whitelink a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 
@@ -42,9 +50,9 @@ img {
 	padding-right: 15px;
 	
 	@media screen and (max-width: 600px) {
-  	max-width: 600px;
-  	padding-left: 0px;
-  	padding-right: 0px;
+  	max-width: 600px !important;
+  	padding-left: 0px !important;
+  	padding-right: 0px !important;
 	}
 }
 
@@ -66,3 +74,4 @@ img {
     font-size: $font-size-base - 1 !important;
 	}
 }
+

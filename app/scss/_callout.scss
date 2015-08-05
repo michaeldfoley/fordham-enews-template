@@ -9,8 +9,13 @@
   display: block;
   padding: 15px;
   
+  a {
+    display: block;
+    text-align: center;
+  }
+  
   @media screen and (max-width: 600px) {
-    Margin-left: -15px;
-    Margin-right: -15px;
+    Margin-left: -15px !important;
+    Margin-right: -15px !important;
   }
 }

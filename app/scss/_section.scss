@@ -60,7 +60,7 @@
   Margin-bottom: 40px;
   max-width: 170px;
   
-  @media screen and (min-width: $screen-xs) and (max-width: $screen-sm) { 
+  @media screen and (min-width: $screen-xs + 1) and (max-width: $screen-sm) { 
     Margin-bottom: 0px !important;
     max-width: 50% !important;
     float: left !important;
