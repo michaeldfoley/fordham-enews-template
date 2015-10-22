@@ -6,6 +6,11 @@
 .event {
   border-bottom: 1px solid $base-border;
   
+  &.last-child,
+  &:last-child {
+    border-bottom: none;
+  }
+  
   .inner {
     padding-top: 15px;
     padding-bottom: 15px;
