@@ -770,6 +770,36 @@ small {
   }
 }
 
+/* line 27, ../scss/_callout.scss */
+.callout-sidebar {
+  background-color: #900028;
+  color: #ffffff;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 36, ../scss/_callout.scss */
+.callout-sidebar a {
+  color: #ffffff;
+}
+/* line 40, ../scss/_callout.scss */
+.callout-sidebar strong {
+  font-size: 14px;
+}
+
+/* line 45, ../scss/_callout.scss */
+.callout-sidebar--header {
+  font-size: 18px;
+  line-height: 1.6;
+}
+/* line 49, ../scss/_callout.scss */
+.callout-sidebar--header strong {
+  font-size: 37px;
+  line-height: 1;
+}
+
 /* line 9, ../scss/_section.scss */
 .section-header {
   background-color: #5b6f7b;

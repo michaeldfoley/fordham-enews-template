@@ -19,3 +19,35 @@
     Margin-right: -15px !important;
   }
 }
+
+
+// Sidebar Callout
+//---------------------
+
+.callout-sidebar {
+  background-color: $primary-color;
+  color: #ffffff;
+  font-size: floor($font-size-base * .9);
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+  a {
+    color: #ffffff;
+  }
+  
+  strong {
+    font-size: floor($font-size-base * .95);
+  }
+}
+
+.callout-sidebar--header {
+  font-size: floor($font-size-base * 1.2);
+  line-height: 1.6;
+  
+  strong {
+    font-size: floor($font-size-base * 2.5);
+    line-height: 1;
+  }
+}
