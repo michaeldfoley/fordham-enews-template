@@ -6,8 +6,7 @@
 .event {
   border-bottom: 1px solid $base-border;
   
-  &.last-child,
-  &:last-child {
+  &.last-child {
     border-bottom: none;
   }
   
