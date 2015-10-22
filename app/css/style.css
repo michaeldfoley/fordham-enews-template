@@ -870,8 +870,17 @@ small {
 .sidebar-header a {
   color: #444444;
 }
+@media screen and (min-width: 376px) and (max-width: 460px) {
+  /* line 96, ../scss/_section.scss */
+  .sidebar-header {
+    max-width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    padding-top: 40px !important;
+  }
+}
 
-/* line 106, ../scss/_section.scss */
+/* line 113, ../scss/_section.scss */
 .sidebar-text {
   font-size: 13px;
 }
