@@ -809,61 +809,63 @@ small {
 /* line 46, ../scss/_section.scss */
 .section-list li {
   Margin-bottom: 12px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #f2f2f2;
 }
-/* line 49, ../scss/_section.scss */
+/* line 51, ../scss/_section.scss */
 .section-list li small {
   display: block;
   color: #444444;
 }
-/* line 53, ../scss/_section.scss */
+/* line 55, ../scss/_section.scss */
 .section-list li.last-child, .section-list li:last-child {
   Margin-bottom: 0;
   padding-bottom: 0;
   border: 0;
 }
 
-/* line 66, ../scss/_section.scss */
+/* line 68, ../scss/_section.scss */
 .sidebar-item {
   Margin-bottom: 40px;
   max-width: 170px;
 }
 @media screen and (min-width: 376px) and (max-width: 460px) {
-  /* line 66, ../scss/_section.scss */
+  /* line 68, ../scss/_section.scss */
   .sidebar-item {
     Margin-bottom: 0px !important;
     max-width: 50% !important;
     float: left !important;
   }
-  /* line 75, ../scss/_section.scss */
+  /* line 77, ../scss/_section.scss */
   .sidebar-item td {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
 }
 @media screen and (max-width: 460px) {
-  /* line 66, ../scss/_section.scss */
+  /* line 68, ../scss/_section.scss */
   .sidebar-item {
     Margin-left: auto !important;
     Margin-right: auto !important;
   }
-  /* line 85, ../scss/_section.scss */
+  /* line 87, ../scss/_section.scss */
   .sidebar-item img {
     max-width: 100% !important;
   }
 }
 
-/* line 91, ../scss/_section.scss */
+/* line 93, ../scss/_section.scss */
 .sidebar-header {
   padding-top: 4px;
   Margin-bottom: 25px;
   font-weight: bold;
 }
-/* line 96, ../scss/_section.scss */
+/* line 98, ../scss/_section.scss */
 .sidebar-header a {
   color: #444444;
 }
 
-/* line 101, ../scss/_section.scss */
+/* line 103, ../scss/_section.scss */
 .sidebar-text {
   font-size: 13px;
 }
