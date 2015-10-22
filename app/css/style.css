@@ -920,52 +920,52 @@ small {
   border-bottom: 1px solid #f2f2f2;
 }
 /* line 9, ../scss/_event.scss */
-.event.last-child, .event:last-child {
+.event.last-child {
   border-bottom: none;
 }
-/* line 14, ../scss/_event.scss */
+/* line 13, ../scss/_event.scss */
 .event .inner {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-/* line 19, ../scss/_event.scss */
+/* line 18, ../scss/_event.scss */
 .event .inner {
   font-size: 13px;
 }
 @media screen and (max-width: 460px) {
-  /* line 19, ../scss/_event.scss */
+  /* line 18, ../scss/_event.scss */
   .event .inner {
     text-align: center !important;
   }
 }
 
-/* line 33, ../scss/_event.scss */
+/* line 32, ../scss/_event.scss */
 .event-image {
   width: 150px;
 }
 @media screen and (max-width: 460px) {
-  /* line 33, ../scss/_event.scss */
+  /* line 32, ../scss/_event.scss */
   .event-image {
     padding-top: 25px !important;
     padding-bottom: 0 !important;
   }
 }
-/* line 41, ../scss/_event.scss */
+/* line 40, ../scss/_event.scss */
 .event-image img {
   max-width: 100%;
 }
 
-/* line 50, ../scss/_event.scss */
+/* line 49, ../scss/_event.scss */
 .event-details {
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 54, ../scss/_event.scss */
+/* line 53, ../scss/_event.scss */
 .event-details h5 {
   color: #900028;
 }
 @media screen and (max-width: 460px) {
-  /* line 50, ../scss/_event.scss */
+  /* line 49, ../scss/_event.scss */
   .event-details {
     padding-left: 15px !important;
     padding-right: 15px !important;
@@ -973,13 +973,13 @@ small {
 }
 
 @media screen and (max-width: 460px) {
-  /* line 68, ../scss/_event.scss */
+  /* line 67, ../scss/_event.scss */
   .event-btn {
     padding-top: 0 !important;
     padding-bottom: 25px !important;
   }
 }
-/* line 75, ../scss/_event.scss */
+/* line 74, ../scss/_event.scss */
 .event-btn .btn {
   display: block;
   width: 70px;
@@ -987,7 +987,7 @@ small {
   padding-right: 0px;
 }
 @media screen and (max-width: 600px) {
-  /* line 75, ../scss/_event.scss */
+  /* line 74, ../scss/_event.scss */
   .event-btn .btn {
     width: auto !important;
     padding-left: 15px !important;
@@ -996,13 +996,13 @@ small {
 }
 
 @media screen and (max-width: 460px) {
-  /* line 94, ../scss/_event.scss */
+  /* line 93, ../scss/_event.scss */
   .event-empty {
     display: none !important;
   }
 }
 
-/* line 100, ../scss/_event.scss */
+/* line 99, ../scss/_event.scss */
 .event-more {
   font-weight: bold;
   text-align: center;
