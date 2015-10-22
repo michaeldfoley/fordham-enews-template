@@ -46,8 +46,15 @@
   li {
     Margin-bottom: 12px;
     
+    small {
+      display: block;
+      color: $text-color;
+    }
+    &.last-child,
     &:last-child {
-      padding-bottom:0;
+      Margin-bottom: 0;
+      padding-bottom: 0;
+      border: 0;
     }
   }
 }
