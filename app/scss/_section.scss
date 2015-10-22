@@ -101,6 +101,13 @@
   a {
     color: $text-color;
   }
+  
+  @media screen and (min-width: $screen-xs + 1) and (max-width: $screen-sm) {
+    max-width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    padding-top: 40px !important;
+  }
 }
 
 .sidebar-text {

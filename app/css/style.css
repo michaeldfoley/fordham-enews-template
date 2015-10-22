@@ -770,6 +770,36 @@ small {
   }
 }
 
+/* line 27, ../scss/_callout.scss */
+.callout-sidebar {
+  background-color: #900028;
+  color: #ffffff;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 36, ../scss/_callout.scss */
+.callout-sidebar a {
+  color: #ffffff;
+}
+/* line 40, ../scss/_callout.scss */
+.callout-sidebar strong {
+  font-size: 14px;
+}
+
+/* line 45, ../scss/_callout.scss */
+.callout-sidebar--header {
+  font-size: 18px;
+  line-height: 1.6;
+}
+/* line 49, ../scss/_callout.scss */
+.callout-sidebar--header strong {
+  font-size: 37px;
+  line-height: 1;
+}
+
 /* line 9, ../scss/_section.scss */
 .section-header {
   background-color: #5b6f7b;
@@ -870,8 +900,17 @@ small {
 .sidebar-header a {
   color: #444444;
 }
+@media screen and (min-width: 376px) and (max-width: 460px) {
+  /* line 96, ../scss/_section.scss */
+  .sidebar-header {
+    max-width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    padding-top: 40px !important;
+  }
+}
 
-/* line 106, ../scss/_section.scss */
+/* line 113, ../scss/_section.scss */
 .sidebar-text {
   font-size: 13px;
 }
