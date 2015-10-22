@@ -521,27 +521,30 @@ small {
   background: #900028;
   color: #ffffff;
   border: 1px solid #5d001a;
+  border-radius: 5px;
 }
 
-/* line 16, ../scss/_btn.scss */
+/* line 17, ../scss/_btn.scss */
 .btn-sm {
   font-size: 13px;
   padding-top: 3px;
   padding-bottom: 3px;
   padding-left: 12px;
   padding-right: 12px;
+  border-radius: 4px;
 }
 
-/* line 24, ../scss/_btn.scss */
+/* line 26, ../scss/_btn.scss */
 .btn-lg {
   font-size: 18px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 40px;
   padding-right: 40px;
+  border-radius: 6px;
 }
 
-/* line 31, ../scss/_btn.scss */
+/* line 34, ../scss/_btn.scss */
 .btn-secondary {
   background: #ffffff;
   border: 1px solid #b3b3b3;
