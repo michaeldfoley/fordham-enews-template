@@ -502,9 +502,10 @@ li {
   display: block;
   font-size: 14px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
-/* line 106, ../scss/_type.scss */
+/* line 107, ../scss/_type.scss */
 small {
   color: #777777;
   font-size: 85%;
@@ -824,48 +825,53 @@ small {
   border: 0;
 }
 
-/* line 68, ../scss/_section.scss */
+/* line 63, ../scss/_section.scss */
+.section-list--last {
+  Margin-bottom: 0;
+}
+
+/* line 71, ../scss/_section.scss */
 .sidebar-item {
   Margin-bottom: 40px;
   max-width: 170px;
 }
 @media screen and (min-width: 376px) and (max-width: 460px) {
-  /* line 68, ../scss/_section.scss */
+  /* line 71, ../scss/_section.scss */
   .sidebar-item {
     Margin-bottom: 0px !important;
     max-width: 50% !important;
     float: left !important;
   }
-  /* line 77, ../scss/_section.scss */
+  /* line 80, ../scss/_section.scss */
   .sidebar-item td {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
 }
 @media screen and (max-width: 460px) {
-  /* line 68, ../scss/_section.scss */
+  /* line 71, ../scss/_section.scss */
   .sidebar-item {
     Margin-left: auto !important;
     Margin-right: auto !important;
   }
-  /* line 87, ../scss/_section.scss */
+  /* line 90, ../scss/_section.scss */
   .sidebar-item img {
     max-width: 100% !important;
   }
 }
 
-/* line 93, ../scss/_section.scss */
+/* line 96, ../scss/_section.scss */
 .sidebar-header {
   padding-top: 4px;
   Margin-bottom: 25px;
   font-weight: bold;
 }
-/* line 98, ../scss/_section.scss */
+/* line 101, ../scss/_section.scss */
 .sidebar-header a {
   color: #444444;
 }
 
-/* line 103, ../scss/_section.scss */
+/* line 106, ../scss/_section.scss */
 .sidebar-text {
   font-size: 13px;
 }
