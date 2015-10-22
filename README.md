@@ -1,6 +1,6 @@
 # Fordham Alumni Newsletter Template
 
-A template for the current Fordham University newsletter. An example of the newsletter produced can be found [here](http://web02.web.fordham.edu/Alumni_Relations/alumni_news/2015/January/January.html).
+A template for the current Fordham University newsletter. An example of the newsletter produced can be found [here](http://rawgit.com/michaeldfoley/fordham-enews-template/with-content/app/index.html).
 Scaffolds out a new newsletter and a workflow to generate a production version with inlined css, optimized images, and a text version.
 
 ## Getting Started
