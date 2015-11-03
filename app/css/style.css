@@ -789,12 +789,26 @@ small {
   font-size: 14px;
 }
 
-/* line 45, ../scss/_callout.scss */
+@media screen and (max-width: 460px) {
+  /* line 45, ../scss/_callout.scss */
+  .sidebar-item.callout-sidebar {
+    max-width: 100% !important;
+    float: none !important;
+  }
+  /* line 50, ../scss/_callout.scss */
+  .sidebar-item.callout-sidebar td {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+/* line 57, ../scss/_callout.scss */
 .callout-sidebar--header {
   font-size: 18px;
   line-height: 1.6;
+  Margin-bottom: 5px;
 }
-/* line 49, ../scss/_callout.scss */
+/* line 62, ../scss/_callout.scss */
 .callout-sidebar--header strong {
   font-size: 37px;
   line-height: 1;
