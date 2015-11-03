@@ -118,7 +118,7 @@ a img {
   font-size: 15px;
   text-align: left;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 63, ../scss/_scaffolding.scss */
   .contents {
     font-size: 14px !important;
@@ -287,7 +287,7 @@ a img {
   max-width: 318px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 182, ../scss/_grid.scss */
   .two-column .column,
   .two-column .column-2,
@@ -348,7 +348,7 @@ a img {
     text-align: center !important;
   }
 }
-@media screen and (min-width: 461px) and (max-width: 620px) {
+@media screen and (min-width: 521px) and (max-width: 620px) {
   /* line 229, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty {
     max-width: 60% !important;
@@ -425,7 +425,7 @@ h4, h5, h6 {
 h1 {
   font-size: 39px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 35, ../scss/_type.scss */
   h1 {
     font-size: 30px !important;
@@ -436,7 +436,7 @@ h1 {
 h2 {
   font-size: 32px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 42, ../scss/_type.scss */
   h2 {
     font-size: 27px !important;
@@ -447,7 +447,7 @@ h2 {
 h3 {
   font-size: 26px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 49, ../scss/_type.scss */
   h3 {
     font-size: 22px !important;
@@ -458,7 +458,7 @@ h3 {
 h4 {
   font-size: 19px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 56, ../scss/_type.scss */
   h4 {
     font-size: 18px !important;
@@ -567,7 +567,7 @@ small {
   padding-top: 20px;
   padding-bottom: 25px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 22, ../scss/_header.scss */
   .header-logo .inner {
     padding-bottom: 0 !important;
@@ -577,7 +577,7 @@ small {
 .header-logo .inner img {
   max-width: 165px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 30, ../scss/_header.scss */
   .header-logo .inner img {
     max-width: 165px !important;
@@ -589,7 +589,7 @@ small {
   padding-top: 29px;
   padding-bottom: 25px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 43, ../scss/_header.scss */
   .header-tagline .inner {
     padding-top: 10px !important;
@@ -607,7 +607,7 @@ small {
   color: #727272;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 64, ../scss/_header.scss */
   .header-logo .contents,
   .header-tagline .contents {
@@ -643,7 +643,7 @@ small {
   color: #ffffff;
   font-size: 13px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 24, ../scss/_footer.scss */
   .footer-nav .contents {
     font-size: 13px !important;
@@ -654,7 +654,7 @@ small {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 39, ../scss/_footer.scss */
   .footer-nav .five-column {
     padding-top: 10px !important;
@@ -682,7 +682,7 @@ small {
   font-size: 13px;
   text-align: center;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 65, ../scss/_footer.scss */
   .footer-bar .contents {
     font-size: 13px !important;
@@ -711,7 +711,7 @@ small {
   text-align: center;
   color: #5e5e5e;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 97, ../scss/_footer.scss */
   .footer .contents {
     font-size: 12px !important;
@@ -728,7 +728,7 @@ small {
   font-weight: bold;
 }
 
-@media screen and (min-width: 376px) and (max-width: 460px) {
+@media screen and (min-width: 376px) and (max-width: 520px) {
   /* line 12, ../scss/_featured.scss */
   .featured .contents,
   .featured .contents tbody,
@@ -789,12 +789,26 @@ small {
   font-size: 14px;
 }
 
-/* line 45, ../scss/_callout.scss */
+@media screen and (max-width: 520px) {
+  /* line 45, ../scss/_callout.scss */
+  .sidebar-item.callout-sidebar {
+    max-width: 100% !important;
+    float: none !important;
+  }
+  /* line 50, ../scss/_callout.scss */
+  .sidebar-item.callout-sidebar td {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+/* line 57, ../scss/_callout.scss */
 .callout-sidebar--header {
   font-size: 18px;
   line-height: 1.6;
+  Margin-bottom: 5px;
 }
-/* line 49, ../scss/_callout.scss */
+/* line 62, ../scss/_callout.scss */
 .callout-sidebar--header strong {
   font-size: 37px;
   line-height: 1;
@@ -854,54 +868,58 @@ small {
   padding-bottom: 0;
   border: 0;
 }
-
 /* line 63, ../scss/_section.scss */
+.section-list a {
+  color: #444444;
+}
+
+/* line 67, ../scss/_section.scss */
 .section-list--last {
   Margin-bottom: 0;
 }
 
-/* line 71, ../scss/_section.scss */
+/* line 75, ../scss/_section.scss */
 .sidebar-item {
   Margin-bottom: 40px;
   max-width: 170px;
 }
-@media screen and (min-width: 376px) and (max-width: 460px) {
-  /* line 71, ../scss/_section.scss */
+@media screen and (min-width: 376px) and (max-width: 520px) {
+  /* line 75, ../scss/_section.scss */
   .sidebar-item {
     Margin-bottom: 0px !important;
     max-width: 50% !important;
     float: left !important;
   }
-  /* line 80, ../scss/_section.scss */
+  /* line 84, ../scss/_section.scss */
   .sidebar-item td {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
 }
-@media screen and (max-width: 460px) {
-  /* line 71, ../scss/_section.scss */
+@media screen and (max-width: 520px) {
+  /* line 75, ../scss/_section.scss */
   .sidebar-item {
     Margin-left: auto !important;
     Margin-right: auto !important;
   }
-  /* line 90, ../scss/_section.scss */
+  /* line 94, ../scss/_section.scss */
   .sidebar-item img {
     max-width: 100% !important;
   }
 }
 
-/* line 96, ../scss/_section.scss */
+/* line 100, ../scss/_section.scss */
 .sidebar-header {
   padding-top: 4px;
   Margin-bottom: 25px;
   font-weight: bold;
 }
-/* line 101, ../scss/_section.scss */
+/* line 105, ../scss/_section.scss */
 .sidebar-header a {
   color: #444444;
 }
-@media screen and (min-width: 376px) and (max-width: 460px) {
-  /* line 96, ../scss/_section.scss */
+@media screen and (min-width: 376px) and (max-width: 520px) {
+  /* line 100, ../scss/_section.scss */
   .sidebar-header {
     max-width: 100% !important;
     float: none !important;
@@ -910,7 +928,7 @@ small {
   }
 }
 
-/* line 113, ../scss/_section.scss */
+/* line 117, ../scss/_section.scss */
 .sidebar-text {
   font-size: 13px;
 }
@@ -932,7 +950,7 @@ small {
 .event .inner {
   font-size: 13px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 18, ../scss/_event.scss */
   .event .inner {
     text-align: center !important;
@@ -943,7 +961,7 @@ small {
 .event-image {
   width: 150px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 32, ../scss/_event.scss */
   .event-image {
     padding-top: 25px !important;
@@ -964,7 +982,7 @@ small {
 .event-details h5 {
   color: #900028;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 49, ../scss/_event.scss */
   .event-details {
     padding-left: 15px !important;
@@ -972,7 +990,7 @@ small {
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 67, ../scss/_event.scss */
   .event-btn {
     padding-top: 0 !important;
@@ -995,7 +1013,7 @@ small {
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
   /* line 93, ../scss/_event.scss */
   .event-empty {
     display: none !important;
