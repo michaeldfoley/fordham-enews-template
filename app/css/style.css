@@ -886,11 +886,10 @@ small {
 @media screen and (min-width: 376px) and (max-width: 520px) {
   /* line 75, ../scss/_section.scss */
   .sidebar-item {
-    Margin-bottom: 0px !important;
     max-width: 50% !important;
     float: left !important;
   }
-  /* line 84, ../scss/_section.scss */
+  /* line 83, ../scss/_section.scss */
   .sidebar-item td {
     padding-left: 15px !important;
     padding-right: 15px !important;
@@ -902,24 +901,24 @@ small {
     Margin-left: auto !important;
     Margin-right: auto !important;
   }
-  /* line 94, ../scss/_section.scss */
+  /* line 93, ../scss/_section.scss */
   .sidebar-item img {
     max-width: 100% !important;
   }
 }
 
-/* line 100, ../scss/_section.scss */
+/* line 99, ../scss/_section.scss */
 .sidebar-header {
   padding-top: 4px;
   Margin-bottom: 25px;
   font-weight: bold;
 }
-/* line 105, ../scss/_section.scss */
+/* line 104, ../scss/_section.scss */
 .sidebar-header a {
   color: #444444;
 }
 @media screen and (min-width: 376px) and (max-width: 520px) {
-  /* line 100, ../scss/_section.scss */
+  /* line 99, ../scss/_section.scss */
   .sidebar-header {
     max-width: 100% !important;
     float: none !important;
@@ -928,7 +927,7 @@ small {
   }
 }
 
-/* line 117, ../scss/_section.scss */
+/* line 116, ../scss/_section.scss */
 .sidebar-text {
   font-size: 13px;
 }
