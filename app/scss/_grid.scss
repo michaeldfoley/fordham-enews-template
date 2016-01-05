@@ -184,7 +184,6 @@
   	.column-sixty,
   	.column-fourty {
 			max-width: 100% !important;
-			display: table !important;
   	}
   }
 	.two-column img {
@@ -213,9 +212,9 @@
   		max-width: 50% !important;
 		}
 	}
-	.sidebar .main {
+	.sidebar .main,
+	.sidebar .aside-sm {
 		max-width: 100% !important;
-		display: table !important;
   	
   	.contents {
     	text-align: center !important;

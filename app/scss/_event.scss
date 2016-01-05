@@ -73,17 +73,21 @@
   
   .btn {
     display: block;
-    width: 70px;
     padding-left: 0px;
     padding-right: 0px;
     
     @media screen and (max-width: 600px) {
-      width: auto !important;
+      display: inline-block !important;
       padding-left: 15px !important;
       padding-right: 15px !important;
     }
   }
   
+}
+
+.event-sold {
+  text-align: center;
+  font-weight: bold;
 }
 
 
