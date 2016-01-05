@@ -796,26 +796,39 @@ small {
   font-size: 14px;
 }
 
+/* line 45, ../scss/_callout.scss */
+.callout-inner {
+  padding-bottom: 0;
+}
 @media screen and (max-width: 520px) {
   /* line 45, ../scss/_callout.scss */
+  .callout-inner {
+    padding-bottom: 20px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  /* line 55, ../scss/_callout.scss */
   .sidebar-item.callout-sidebar {
     max-width: 100% !important;
     float: none !important;
   }
-  /* line 50, ../scss/_callout.scss */
+  /* line 60, ../scss/_callout.scss */
   .sidebar-item.callout-sidebar td {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
 }
 
-/* line 57, ../scss/_callout.scss */
+/* line 67, ../scss/_callout.scss */
 .callout-sidebar--header {
   font-size: 18px;
   line-height: 1.6;
   Margin-bottom: 5px;
 }
-/* line 62, ../scss/_callout.scss */
+/* line 72, ../scss/_callout.scss */
 .callout-sidebar--header strong {
   font-size: 37px;
   line-height: 1;

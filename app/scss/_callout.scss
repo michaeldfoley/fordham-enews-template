@@ -42,6 +42,16 @@
   }
 }
 
+.callout-inner {
+  padding-bottom: 0;
+  
+  @media screen and (max-width: $screen-sm) {
+    padding-bottom: 20px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 .sidebar-item.callout-sidebar {
   @media screen and (max-width: $screen-sm) { 
     max-width: 100% !important;
