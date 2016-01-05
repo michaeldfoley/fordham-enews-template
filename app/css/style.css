@@ -306,88 +306,88 @@ a img {
   .sixtyfourty-column .column-sixty,
   .sixtyfourty-column .column-fourty {
     max-width: 100% !important;
-    display: table !important;
   }
 
-  /* line 190, ../scss/_grid.scss */
+  /* line 189, ../scss/_grid.scss */
   .two-column img {
     max-width: 100% !important;
   }
 
-  /* line 193, ../scss/_grid.scss */
+  /* line 192, ../scss/_grid.scss */
   .three-column img {
     max-width: 50% !important;
   }
 
-  /* line 199, ../scss/_grid.scss */
+  /* line 198, ../scss/_grid.scss */
   .sixtyfourty-column .inner {
     width: 460px !important;
     max-width: 100% !important;
   }
-  /* line 203, ../scss/_grid.scss */
+  /* line 202, ../scss/_grid.scss */
   .sixtyfourty-column .inner td {
     width: 440px !important;
     max-width: 100% !important;
   }
-  /* line 208, ../scss/_grid.scss */
+  /* line 207, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty img {
     max-width: 100% !important;
   }
-  /* line 212, ../scss/_grid.scss */
+  /* line 211, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty img {
     max-width: 50% !important;
   }
 
-  /* line 216, ../scss/_grid.scss */
-  .sidebar .main {
+  /* line 215, ../scss/_grid.scss */
+  .sidebar .main,
+  .sidebar .aside-sm {
     max-width: 100% !important;
-    display: table !important;
   }
-  /* line 220, ../scss/_grid.scss */
-  .sidebar .main .contents {
+  /* line 219, ../scss/_grid.scss */
+  .sidebar .main .contents,
+  .sidebar .aside-sm .contents {
     text-align: center !important;
   }
 }
 @media screen and (min-width: 521px) and (max-width: 620px) {
-  /* line 229, ../scss/_grid.scss */
+  /* line 228, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty {
     max-width: 60% !important;
   }
-  /* line 233, ../scss/_grid.scss */
+  /* line 232, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty {
     max-width: 40% !important;
   }
 
-  /* line 240, ../scss/_grid.scss */
+  /* line 239, ../scss/_grid.scss */
   .three-column .column {
     max-width: 33% !important;
   }
-  /* line 244, ../scss/_grid.scss */
+  /* line 243, ../scss/_grid.scss */
   .three-column .column-2 {
     max-width: 67% !important;
   }
 
-  /* line 249, ../scss/_grid.scss */
+  /* line 248, ../scss/_grid.scss */
   .two-column .column {
     max-width: 50% !important;
   }
 
-  /* line 253, ../scss/_grid.scss */
+  /* line 252, ../scss/_grid.scss */
   .five-column .column {
     max-width: 20% !important;
   }
 
-  /* line 257, ../scss/_grid.scss */
+  /* line 256, ../scss/_grid.scss */
   .sidebar .aside {
     max-width: 30% !important;
   }
 
-  /* line 261, ../scss/_grid.scss */
+  /* line 260, ../scss/_grid.scss */
   .sidebar .aside-sm {
     max-width: 17% !important;
   }
 
-  /* line 265, ../scss/_grid.scss */
+  /* line 264, ../scss/_grid.scss */
   .sidebar .main {
     max-width: 53% !important;
   }
@@ -517,15 +517,16 @@ small {
   text-align: center;
   padding-top: 7px;
   padding-bottom: 7px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   background: #900028;
   color: #ffffff;
   border: 1px solid #5d001a;
   border-radius: 5px;
+  letter-spacing: .05em;
 }
 
-/* line 17, ../scss/_btn.scss */
+/* line 18, ../scss/_btn.scss */
 .btn-sm {
   font-size: 13px;
   padding-top: 3px;
@@ -535,7 +536,7 @@ small {
   border-radius: 4px;
 }
 
-/* line 26, ../scss/_btn.scss */
+/* line 27, ../scss/_btn.scss */
 .btn-lg {
   font-size: 18px;
   padding-top: 12px;
@@ -545,7 +546,7 @@ small {
   border-radius: 6px;
 }
 
-/* line 34, ../scss/_btn.scss */
+/* line 35, ../scss/_btn.scss */
 .btn-secondary {
   background: #ffffff;
   border: 1px solid #b3b3b3;
@@ -750,6 +751,12 @@ small {
     Margin-bottom: 10px !important;
   }
 }
+/* line 34, ../scss/_featured.scss */
+.feature-main {
+  padding-top: 20px;
+  text-align: center;
+}
+
 /* line 6, ../scss/_callout.scss */
 .callout {
   background-color: #e6e6e6;
@@ -867,62 +874,66 @@ small {
   color: #444444;
 }
 /* line 61, ../scss/_section.scss */
-.section-list .section-list--last {
+.section-list .section-item--last {
+  border-bottom: 0;
+}
+
+/* line 66, ../scss/_section.scss */
+.section-list--last {
   Margin-bottom: 0;
   padding-bottom: 0;
   border: 0;
 }
 
-/* line 72, ../scss/_section.scss */
+/* line 76, ../scss/_section.scss */
 .sidebar-item {
   Margin-bottom: 40px;
   max-width: 170px;
 }
 @media screen and (min-width: 376px) and (max-width: 520px) {
-  /* line 72, ../scss/_section.scss */
+  /* line 76, ../scss/_section.scss */
   .sidebar-item {
     max-width: 50% !important;
     float: left !important;
   }
-  /* line 80, ../scss/_section.scss */
+  /* line 84, ../scss/_section.scss */
   .sidebar-item td {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 72, ../scss/_section.scss */
+  /* line 76, ../scss/_section.scss */
   .sidebar-item {
     Margin-left: auto !important;
     Margin-right: auto !important;
   }
-  /* line 90, ../scss/_section.scss */
+  /* line 94, ../scss/_section.scss */
   .sidebar-item img {
     max-width: 100% !important;
   }
 }
 
-/* line 96, ../scss/_section.scss */
+/* line 100, ../scss/_section.scss */
 .sidebar-header {
   padding-top: 4px;
   Margin-bottom: 25px;
   font-weight: bold;
 }
-/* line 101, ../scss/_section.scss */
+/* line 105, ../scss/_section.scss */
 .sidebar-header a {
   color: #444444;
 }
 @media screen and (min-width: 376px) and (max-width: 520px) {
-  /* line 96, ../scss/_section.scss */
+  /* line 100, ../scss/_section.scss */
   .sidebar-header {
     max-width: 100% !important;
     float: none !important;
     clear: both !important;
-    padding-top: 40px !important;
   }
 }
 
-/* line 113, ../scss/_section.scss */
+/* line 116, ../scss/_section.scss */
 .sidebar-text {
   font-size: 13px;
 }
@@ -994,27 +1005,32 @@ small {
 /* line 74, ../scss/_event.scss */
 .event-btn .btn {
   display: block;
-  width: 70px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 600px) {
   /* line 74, ../scss/_event.scss */
   .event-btn .btn {
-    width: auto !important;
+    display: inline-block !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
 }
 
+/* line 88, ../scss/_event.scss */
+.event-sold {
+  text-align: center;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 520px) {
-  /* line 93, ../scss/_event.scss */
+  /* line 97, ../scss/_event.scss */
   .event-empty {
     display: none !important;
   }
 }
 
-/* line 99, ../scss/_event.scss */
+/* line 103, ../scss/_event.scss */
 .event-more {
   font-weight: bold;
   text-align: center;
