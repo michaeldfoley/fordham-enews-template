@@ -126,6 +126,14 @@ a img {
 }
 
 /* line 9, ../scss/_grid.scss */
+.one-column,
+.two-column,
+.three-column,
+.sixtyfourty-column {
+  padding-bottom: 10px;
+}
+
+/* line 16, ../scss/_grid.scss */
 .two-column,
 .three-column,
 .five-column,
@@ -134,7 +142,7 @@ a img {
   font-size: 0;
   text-align: center;
 }
-/* line 17, ../scss/_grid.scss */
+/* line 24, ../scss/_grid.scss */
 .two-column .column,
 .two-column .column-2,
 .two-column .column-sixty,
@@ -158,7 +166,7 @@ a img {
   width: 100%;
   display: inline-block;
 }
-/* line 25, ../scss/_grid.scss */
+/* line 32, ../scss/_grid.scss */
 .two-column img,
 .three-column img,
 .five-column img,
@@ -168,7 +176,7 @@ a img {
   height: auto;
 }
 
-/* line 36, ../scss/_grid.scss */
+/* line 43, ../scss/_grid.scss */
 .two-column .column,
 .two-column .column-2,
 .two-column .column-sixty,
@@ -187,7 +195,7 @@ a img {
 .sixtyfourty-column .column-fourty {
   vertical-align: top;
 }
-/* line 43, ../scss/_grid.scss */
+/* line 50, ../scss/_grid.scss */
 .two-column .text,
 .three-column .text,
 .five-column
@@ -195,100 +203,100 @@ a img {
   padding-top: 10px;
 }
 
-/* line 50, ../scss/_grid.scss */
+/* line 57, ../scss/_grid.scss */
 .sidebar .column {
   vertical-align: middle;
 }
-/* line 54, ../scss/_grid.scss */
+/* line 61, ../scss/_grid.scss */
 .sidebar img {
   max-width: 150px;
 }
 
-/* line 65, ../scss/_grid.scss */
+/* line 72, ../scss/_grid.scss */
 .two-column .column {
   max-width: 300px;
 }
-/* line 69, ../scss/_grid.scss */
+/* line 76, ../scss/_grid.scss */
 .two-column img {
   max-width: 270px;
 }
 
-/* line 80, ../scss/_grid.scss */
+/* line 87, ../scss/_grid.scss */
 .sixtyfourty-column .column-sixty {
   max-width: 360px;
 }
-/* line 83, ../scss/_grid.scss */
+/* line 90, ../scss/_grid.scss */
 .sixtyfourty-column .column-sixty img {
   max-width: 330px;
 }
-/* line 87, ../scss/_grid.scss */
+/* line 94, ../scss/_grid.scss */
 .sixtyfourty-column .column-sixty .inner td {
   width: 340px;
   max-width: 100%;
 }
-/* line 93, ../scss/_grid.scss */
+/* line 100, ../scss/_grid.scss */
 .sixtyfourty-column .column-fourty {
   max-width: 240px;
 }
-/* line 96, ../scss/_grid.scss */
+/* line 103, ../scss/_grid.scss */
 .sixtyfourty-column .column-fourty img {
   max-width: 210px;
 }
-/* line 100, ../scss/_grid.scss */
+/* line 107, ../scss/_grid.scss */
 .sixtyfourty-column .column-fourty .inner td {
   width: 340px;
   max-width: 100%;
 }
 
-/* line 113, ../scss/_grid.scss */
+/* line 120, ../scss/_grid.scss */
 .three-column .column {
   max-width: 200px;
 }
-/* line 116, ../scss/_grid.scss */
+/* line 123, ../scss/_grid.scss */
 .three-column .column .contents {
   text-align: center;
 }
-/* line 121, ../scss/_grid.scss */
+/* line 128, ../scss/_grid.scss */
 .three-column .column-2 {
   max-width: 400px;
 }
-/* line 125, ../scss/_grid.scss */
+/* line 132, ../scss/_grid.scss */
 .three-column img {
   max-width: 170px;
 }
-/* line 129, ../scss/_grid.scss */
+/* line 136, ../scss/_grid.scss */
 .three-column .column-2 img {
   max-width: 370px;
 }
 
-/* line 140, ../scss/_grid.scss */
+/* line 147, ../scss/_grid.scss */
 .five-column .column {
   max-width: 120px;
 }
-/* line 143, ../scss/_grid.scss */
+/* line 150, ../scss/_grid.scss */
 .five-column .column .contents {
   text-align: center;
 }
-/* line 148, ../scss/_grid.scss */
+/* line 155, ../scss/_grid.scss */
 .five-column img {
   max-width: 90px;
 }
 
-/* line 159, ../scss/_grid.scss */
+/* line 166, ../scss/_grid.scss */
 .sidebar .aside {
   max-width: 180px;
 }
-/* line 163, ../scss/_grid.scss */
+/* line 170, ../scss/_grid.scss */
 .sidebar .aside-sm {
   max-width: 102px;
 }
-/* line 167, ../scss/_grid.scss */
+/* line 174, ../scss/_grid.scss */
 .sidebar .main {
   max-width: 318px;
 }
 
 @media screen and (max-width: 520px) {
-  /* line 182, ../scss/_grid.scss */
+  /* line 189, ../scss/_grid.scss */
   .two-column .column,
   .two-column .column-2,
   .two-column .column-sixty,
@@ -308,86 +316,86 @@ a img {
     max-width: 100% !important;
   }
 
-  /* line 189, ../scss/_grid.scss */
+  /* line 196, ../scss/_grid.scss */
   .two-column img {
     max-width: 100% !important;
   }
 
-  /* line 192, ../scss/_grid.scss */
+  /* line 199, ../scss/_grid.scss */
   .three-column img {
     max-width: 50% !important;
   }
 
-  /* line 198, ../scss/_grid.scss */
+  /* line 205, ../scss/_grid.scss */
   .sixtyfourty-column .inner {
     width: 460px !important;
     max-width: 100% !important;
   }
-  /* line 202, ../scss/_grid.scss */
+  /* line 209, ../scss/_grid.scss */
   .sixtyfourty-column .inner td {
     width: 440px !important;
     max-width: 100% !important;
   }
-  /* line 207, ../scss/_grid.scss */
+  /* line 214, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty img {
     max-width: 100% !important;
   }
-  /* line 211, ../scss/_grid.scss */
+  /* line 218, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty img {
     max-width: 50% !important;
   }
 
-  /* line 215, ../scss/_grid.scss */
+  /* line 222, ../scss/_grid.scss */
   .sidebar .main,
   .sidebar .aside-sm {
     max-width: 100% !important;
   }
-  /* line 219, ../scss/_grid.scss */
+  /* line 226, ../scss/_grid.scss */
   .sidebar .main .contents,
   .sidebar .aside-sm .contents {
     text-align: center !important;
   }
 }
 @media screen and (min-width: 521px) and (max-width: 620px) {
-  /* line 228, ../scss/_grid.scss */
+  /* line 235, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty {
     max-width: 60% !important;
   }
-  /* line 232, ../scss/_grid.scss */
+  /* line 239, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty {
     max-width: 40% !important;
   }
 
-  /* line 239, ../scss/_grid.scss */
+  /* line 246, ../scss/_grid.scss */
   .three-column .column {
     max-width: 33% !important;
   }
-  /* line 243, ../scss/_grid.scss */
+  /* line 250, ../scss/_grid.scss */
   .three-column .column-2 {
     max-width: 67% !important;
   }
 
-  /* line 248, ../scss/_grid.scss */
+  /* line 255, ../scss/_grid.scss */
   .two-column .column {
     max-width: 50% !important;
   }
 
-  /* line 252, ../scss/_grid.scss */
+  /* line 259, ../scss/_grid.scss */
   .five-column .column {
     max-width: 20% !important;
   }
 
-  /* line 256, ../scss/_grid.scss */
+  /* line 263, ../scss/_grid.scss */
   .sidebar .aside {
     max-width: 30% !important;
   }
 
-  /* line 260, ../scss/_grid.scss */
+  /* line 267, ../scss/_grid.scss */
   .sidebar .aside-sm {
     max-width: 17% !important;
   }
 
-  /* line 264, ../scss/_grid.scss */
+  /* line 271, ../scss/_grid.scss */
   .sidebar .main {
     max-width: 53% !important;
   }

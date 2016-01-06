@@ -6,6 +6,13 @@
 // Multiple column layouts
 //---------------------
 
+.one-column,
+.two-column,
+.three-column,
+.sixtyfourty-column {
+	padding-bottom: 10px;
+}
+
 .two-column,
 .three-column,
 .five-column,
