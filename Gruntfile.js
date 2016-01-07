@@ -136,7 +136,8 @@ module.exports = function (grunt) {
             },
             plain: {
                 options: {
-                    mode: 'txt'
+                    mode: 'txt',
+                    lineLength: 100000
                 },
                 src: '<%= paths.src %>/<%= paths.email %>',
                 dest: '<%= paths.dist %>/<%= paths.txt %>'
